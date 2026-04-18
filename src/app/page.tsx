@@ -89,6 +89,25 @@ const FAQS = [
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "SteepLog",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "iOS, Android",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "Reference data for 5,000+ teas with brew parameters. Log your sessions, track tasting notes, and build a personal tea library.",
+            "url": "https://www.steeplog.com"
+          })
+        }}
+      />
       <SiteNav />
       <main id="main-content" className="pt-20">
 
