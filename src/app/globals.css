@@ -51,6 +51,6 @@
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center font-semibold rounded-xl px-6 py-3 min-h-[48px]
-           bg-emerald-800 text-white hover:bg-emerald-900 transition-colors press-feedback;
+           bg-emerald-800 text-white hover:bg-emerald-900 transition-colors active:scale-[0.97];
   }
 }

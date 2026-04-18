@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "About SteepLog",
-  description: "The story behind SteepLog. Search 5,000+ teas. Log your sessions. Build your tea knowledge.",
+  description: "The story behind SteepLog. Search 173+ teas. Log your sessions. Build your tea knowledge.",
 };
 
 export default function AboutPage() {

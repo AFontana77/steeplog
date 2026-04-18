@@ -5,8 +5,8 @@ import { Database, BookOpen, BarChart3, Star, ArrowRight, Download, CheckCircle 
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "SteepLog — Search 5,000+ teas",
-  description: "SteepLog has 5,000+ teas with origins, steep temps, times, and tasting notes. Log your sessions, track favorites, and build a tea knowledge base that grows with every cup.",
+  title: "SteepLog — Search 173+ teas",
+  description: "SteepLog has 173+ teas with origins, steep temps, times, and tasting notes. Log your sessions, track favorites, and build a tea knowledge base that grows with every cup.",
 };
 
 const FEATURES = [
@@ -29,7 +29,7 @@ export default function HomePage() {
               Search 5,000+ teas. Log your own.
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Search 5,000+ teas.
+              Search 173+ teas.
               <br />
               <span className="text-emerald-900">Log your sessions.</span>
             </h1>
